@@ -31,7 +31,7 @@ main .welcome {
   animation: welcome 2.5s ease-in-out forwards;
 }
 main .signUp {
-  width: 100%;
+  width: 60%;
   height: 100%;
   padding: 10px 10px;
   display: flex;
