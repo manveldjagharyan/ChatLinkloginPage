@@ -41,6 +41,12 @@ main .signUp {
   flex-direction: column;
   animation: signUp 3s linear forwards;
 }
+@media(max-width:640px){
+  main .signUp{
+    width:100%;
+    
+  }
+}
 main .signUp .signUpLogo {
   transform: translateY(-50px);
 }
