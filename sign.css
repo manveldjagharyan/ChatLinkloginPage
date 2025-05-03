@@ -1,0 +1,257 @@
+@import url("https://v1.fontapi.ir/css/SFProDisplay");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: SF Pro Display, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(blue 0%, blue 0%, #000 50%, black 100%);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .welcome {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+  opacity: 1;
+  animation: welcome 2.5s ease-in-out forwards;
+}
+main .signUp {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  animation: signUp 3s linear forwards;
+}
+main .signUp .signUpLogo {
+  transform: translateY(-50px);
+}
+main .signUp .signUpAccountText {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+main .signUp .personalDataText {
+  color: #cacaca;
+}
+main .signUp .socialMedia {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 5px 10px;
+  gap: 5px;
+  margin-top: 10px;
+}
+main .signUp .socialMedia #signUpGoogle {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 10px;
+  border: 1px solid rgb(196, 196, 196);
+  padding: 5px;
+  transition: 0.4s;
+}
+main .signUp .socialMedia #signUpGoogle img {
+  width: 30px;
+}
+main .signUp .socialMedia #signUpGoogle h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+main .signUp .socialMedia #signUpGoogle:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3490196078);
+  color: #000;
+}
+main .signUp .socialMedia #signUpGithub {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgb(196, 196, 196);
+  gap: 10px;
+  transition: 0.4s;
+  padding: 5px;
+}
+main .signUp .socialMedia #signUpGithub img {
+  width: 30px;
+}
+main .signUp .socialMedia #signUpGithub h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+main .signUp .socialMedia #signUpGithub:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3490196078);
+  color: #000;
+}
+main .signUp .signUpOr {
+  padding: 10px 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+main .signUp .signUpOr span {
+  font-weight: 500;
+}
+main .signUp .signUpOr hr {
+  width: 42%;
+  border: 1px solid rgb(94, 94, 94);
+}
+main .signUp #signInForm {
+  width: 100%;
+  height: auto;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+main .signUp #signInForm .forms {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+main .signUp #signInForm .forms .formChild {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+main .signUp #signInForm .forms .formChild label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: white;
+}
+main .signUp #signInForm .forms .formChild input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #2c2c2c;
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  border: none;
+  font-size: 16px;
+  transition: 0.4s;
+}
+main .signUp #signInForm .forms .formChild input::-moz-placeholder {
+  color: #777777;
+  font-size: 18px;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
+  filter: blur(0);
+}
+main .signUp #signInForm .forms .formChild input::placeholder {
+  color: #777777;
+  font-size: 18px;
+  transition: 0.4s;
+  filter: blur(0);
+}
+main .signUp #signInForm .forms .formChild input:focus {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3490196078);
+}
+main .signUp #signInForm .forms .formChild input:focus::-moz-placeholder {
+  color: white;
+  filter: blur(10px);
+  opacity: 0;
+}
+main .signUp #signInForm .forms .formChild input:focus::placeholder {
+  color: white;
+  filter: blur(10px);
+  opacity: 0;
+}
+main .signUp #signInForm #submitButtonSignUp {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #2c2c2c;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+main .signUp #signInForm #submitButtonSignUp:hover {
+  background-color: #3b3b3b;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3490196078);
+}
+
+.doYouHaveAccount {
+  margin-top: 10px;
+}
+.doYouHaveAccount a {
+  color: white;
+  font-weight: 700;
+}
+
+@keyframes welcome {
+  0% {
+    opacity: 0;
+    transform: translateY(300px);
+    filter: blur(20px);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+    fikter: blur(0);
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+@keyframes signUp {
+  0% {
+    display: none;
+    opacity: 0;
+    transform: translateY(-50px);
+    filter: blur(5px);
+  }
+  85% {
+    display: none;
+    opacity: 0;
+    transform: translateY(-50px);
+    filter: blur(10px);
+  }
+  100% {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0px);
+    filter: blur(0);
+  }
+}/*# sourceMappingURL=sign.css.map */

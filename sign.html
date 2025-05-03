@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatLink | Sign Up</title>
+    <link rel="icon" href="./Frame 2.png" type="image/png">
+    <link rel="stylesheet" href="./sign.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="welcome">Welcome to<br><b>ChatLink</b></h1>
+ 
+        <div class="signUp">
+            <h1 class="signUpLogo">ChatLink</h1>
+            <h2 class="signUpAccountText">Sign Up Account</h2>
+            <p class="personalDataText">Enter your personal data to create your account.</p>
+
+            <div class="socialMedia">
+                <div id="signUpGoogle"><img src="./Google__G__logo.svg.png">
+                    <h3>Google</h3>
+                </div>
+                <div id="signUpGithub"><img src="./github_logo_icon_229278.webp">
+                    <h3>GitHub</h3>
+                </div>
+            </div>
+
+            <div class="signUpOr">
+                <hr><span>Or</span>
+                <hr>
+            </div>
+
+            <form id="signInForm" action="index.html">
+                <div class="forms">
+                    <div class="formChild">
+                        <label>Full Name</label>
+                        <input type="text" id="username" name="username" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="formChild">
+                        <label>Tel. number</label>
+                        <input type="text" id="telNumber" name="tel" placeholder="09988776655" required>
+                    </div>
+
+                    <div class="formChild">
+                        <label>Email</label>
+                        <input type="text" id="username" name="email" placeholder="john@gmail.com" required>
+                    </div>
+
+                    <div class="formChild">
+                        <label>Password</label>
+                        <input type="password" id="password" name="password" placeholder="*******" required>
+                    </div>
+                </div>
+
+                <button type="submit" id="submitButtonSignUp">Sign in</button>
+            </form>
+            <p class="doYouHaveAccount">Do you have an account? <a href="#">Sign In</a></p>
+        </div>
+    </main>
+    <script src="./sign.js"></script>
+</body>
+
+</html>
